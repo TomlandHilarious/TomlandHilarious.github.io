@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: EEG-Familiarity Prediction
+description: EEG and LDA
 img:
 importance: 4
-category: fun
+category: machine learning
 ---
 
 Every project has a beautiful feature showcase page.

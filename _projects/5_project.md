@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Fears and Confidence in Introductory CS Courses
+description: an investigation of the fears and confidence changes of non-CS majors in intro CS courses.
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: human-centered
 ---
 
 Every project has a beautiful feature showcase page.

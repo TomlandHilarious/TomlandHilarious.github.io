@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: MemoEats - Agile CRUD Web App
+description: a CRUD recipe app
 img:
 importance: 3
-category: fun
+category: human-centered
 ---
 
 Every project has a beautiful feature showcase page.

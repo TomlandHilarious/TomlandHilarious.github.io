@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Fine-Grained Bird Classification
+description: Created and deployed custom fine-grained bird classification models. 
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: machine learning
 ---
 
 Every project has a beautiful feature showcase page.

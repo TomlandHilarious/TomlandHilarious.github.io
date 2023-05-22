@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - TomlandHilarious
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - TomlandHilarious/COGS-189-Dinosaur-Game-with-Eyeblink
+  - TomlandHilarious/EEG-Familiarity 
+  - TomlandHilarious/Fine_Grained_Bird_Classification 
+  - TomlandHilarious/cse110-fall22-group12 
+

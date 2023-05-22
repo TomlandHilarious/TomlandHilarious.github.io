@@ -2,96 +2,145 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Ruoxuan Li
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11th November 2001
     - name: Languages
-      value: English, German
+      value: English, Mandarin
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Data Science
+      institution: Columbia University, NY, U.S
+      year: 2023-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Incoming student at CU
+  
+
+    - title: Bachelor of Science in Cognitive Science with a specialization in ML and NN
+      institution: UC San Diego, CA, U.S.
+      year: 2019-2023
+      description:
+        - Minor in CS.
+        - Major GPA - 4.0 ; Overall GPA - 3.94.
+        - title: Relevant courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Data Analysis and Visualization
+            - Neural Computation & Machine Learning & Neural Networks
+            - Advanced Data Structures & Algorithm Analysis
+            - Statistics & Probability & Calculus
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Remote Data Scientist Intern
+      institution: EdgeDevice.AI LLC, Redwood City, CA
+      year: 2022 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Programmed web scraping script to obtain household information on Zillow and Redfin, developed K-nearest neighbor, and polynomial regression with L1 and L2 regularization to obtain the best algorithm.
+        - Performed data analysis housing prices while considering seasonality and trend and achieved the MAPE of 0.5 to determine the best investment strategy.
+        - Utilized PHP to query information from the database to conduct ad-hoc analysis in preparation for future automation development
+
+    - title: Tutor
+      institution: UC San Diego, San Diego, CA
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Tutored in CSE 15L - Software tools and Technique and CSE 8A Introduction to Programming and Computational Problem-Solving I course
+        - Conducted in-person labs, assisting students in grasping fundamental concepts of Python programming such as variables, if conditions, for loops, while loops, etc.
+        - Held regular office hours to address students' questions and provide guidance on Python programming and basic computer science principles.
+        - Assessed and graded students' lab reports, providing detailed feedback to help them improve their understanding of software tools and techniques.
+        - Collaborated with the course instructors in designing and refining weekly programming assignments, ensuring they align with the learning objectives and challenge students appropriately.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Undergraduate Research Assistant
+      institution: UCSD, San Diego, CA
+      year: 2022 - Now
       description:
+        - Anonymized and cleaned aggregated surveys obtained from previous researchers, ensuring data privacy and confidentiality.
+        - Performed qualitative and quantitative analysis on the anonymized data. 
+        - Collaborated with the researchers to discuss and refine research objectives, methodologies, and results of multiple projeccts.
+        - - Communicates research progress, challenges, and results effectively through written reports.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Instructional Assistant
+      institution: UC San Diego, San Diego, CA
+      year: 2022 - 2022
+      description:
+        - Tutored students in a data science and machine learning course, providing guidance and support in understanding and applying key concepts.
+        - Held weekly office hours to address student questions, clarifications, and provide additional assistance outside of class.
+        - Managed the nbgrader system, responsible for grading assignments, ensuring fairness and consistency in evaluation.
+        - Provided guidance and feedback to students on their data science projects, offering insights and suggestions to enhance their understanding and project outcomes.
+        - Collaborated with instructors and teaching staff to maintain an effective learning environment and contribute to the continuous improvement of the course curriculum.
 
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://brainstormcards.netlify.app/">Microaggression Intervention Designs</a>
+      year: 2023
+      description:
+        - Invovled in designing multiple Microaggression interventions, including the Microaggression Captcha, Microaggression Garden, and Microaggression Phone Booth, to provide individuals with tools to recognize and respond to microaggressions.
+        - Built and maintained the Microaggression (MA) website and prototype of Microaggression Captcha for workshop purposes.
+        - Collaborated with the team to organize and facilitate Microaggression workshops.
+    
+    - title: <a href="https://github.com/TomlandHilarious/Fine_Grained_Bird_Classification">Fine-Grained Bird Classification</a>
+      year: 2023
+      description: 
+        - Created and deployed custom fine-grained bird classification models self-designed CNN and masked CNN (with background removal) and compared model performances with the pre-trained ResNet-50 model. 
+        - Compared model performance and identified that the masked approach outperformed non-masked models, while ResNet50 achieved the highest accuracy.
+        - Employed data visualization and deep learning techniques on a complex image dataset and generated a comprehensive written report and a presentation video showcasing the project's methodology and findings.
+    - title: <a href="https://github.com/TomlandHilarious/COGS-189-Dinosaur-Game-with-Eyeblink">Hands-Free Dino Jump - EEG-Driven Gameplay with Eyeblinks Using Statistical Learning</a>
+      year: 2023
+      description:
+        - Led a team of 6 members in collecting and preprocessing EEG data using Cyton devices and preprocessed and filtered data to identify patterns related to eyeblinks.
+        - Designed and applied statistical learning algorithms to detect individuals' unique eyeblink patterns from the EEG data and utilized Simple Voltage Thresholding (SVT) to establish a connection between the EEG signals and a virtual keyboard, enabling users to control the game with their eyeblink patterns.
+        - Presented the project, highlighting the integration of EEG signals with SVT and statistical learning to create an immersive and hands-free gaming experience for users.
+    - title: <a href="https://github.com/TomlandHilarious/cse110-fall22-group12">MemoEats - Agile CRUD Web App</a>
+      year: 2022
+      description:
+        - Led a team of 12 members using Agile practices in the development of a CRUD web-based recipe application within a 10-week timeframe.
+        - Developed a CRUD web-based recipe app that allows users to add, store, view, and edit their recipes.
+        - Took charge of the overall project supervision, including designing and refining the website layout, conducting meetings, and overseeing UI/UX testing and managed source files, meeting notes, documentations, and Architecture Decision Records (ADRs) within the repository.
+        - Successfully coordinated the team efforts to deliver a functional and user-friendly CRUD application named "MemorEats".
+    - title: <a href="https://dl.acm.org/doi/pdf/10.1145/3545945.3569865">Fears and Confidence in Introductory CS Courses</a>
+      year: 2023
+      description:
+        - Investigated fears and confidence levels among non-majors in introductory CS courses.
+        - Analyzed and anonymized aggregated surveys from previous researchers, employing qualitative and quantitative analysis techniques.
+        - Utilized statistical methodologies to conduct exploratory analysis and generate significant findings for the final research paper.
+    - title: <a href="https://github.com/TomlandHilarious/EEG-Familiarity">EEG-Familiarity Prediction</a>
+      year: 2022
+      description:
+        - Replicated and verified the results of a research paper that utilized EEG data to predict subjects' memory recall ability.
+        - Detected and rectified errors present in the scripts of the previously published paper, ensuring the accuracy of the experimental outcomes.
+        - Translated MATLAB code into Python scripts and developed object-oriented functions within the Preprocessing-Data class, facilitating generic data preprocessing operations.
+      
+    
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022 - Now
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Member at Phi Beta Kappa
+    - year: 2019 - 2023
       items: 
-        - Max Planck Medal
+        - Warren College Provost Honors
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computing Education and HCI 
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Exploring innovative approaches to teaching and learning computer science, with a focus on enhancing student engagement, motivation, and comprehension.
+        - Investigating human-computer interaction (HCI) design principles and methodologies to create intuitive and user-friendly educational software and interfaces.
+
+    - title: Deep Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Researching and developing deep learning models and algorithms for various applications, such as computer vision, natural language processing, and pattern recognition.
+        - Exploring advanced techniques in deep learning, including generative adversarial networks (GANs), recurrent neural networks (RNNs), and transformers, to push the boundaries of artificial intelligence.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Birding, Hiking, Traveling, Music, Photography, Literature, Movies.
