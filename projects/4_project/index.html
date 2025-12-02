@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MemoEats - Agile CRUD Web App | Ruoxuan  Li</title>
     <meta name="author" content="Ruoxuan  Li">
-    <meta name="description" content="a CRUD recipe app">
+    <meta name="description" content="A collaborative recipe management web application built with Agile practices.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -89,17 +89,16 @@
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/repositories/">repositories</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
+                <a class="nav-link" href="/interests/">interests</a>
               </li>
               <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">research &amp; work</a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/publications/">publications</a>
-                  <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="/projects/">projects</a>
+                  <a class="dropdown-item" href="/publications/">publications</a>
+                  <a class="dropdown-item" href="/cv/">cv</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/repositories/">repositories</a>
                 </div>
               </li>
 
@@ -132,168 +131,145 @@
 
           <header class="post-header">
             <h1 class="post-title">MemoEats - Agile CRUD Web App</h1>
-            <p class="post-description">a CRUD recipe app</p>
+            <p class="post-description">A collaborative recipe management web application built with Agile practices.</p>
           </header>
 
           <article>
-            <p>Every project has a beautiful feature showcase page.
-It’s easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.</p>
+            <h2 id="project-overview">Project Overview</h2>
 
-<p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p>
+<p>This is a course project for CSE 110: Software Engineering at UCSD. MemoEats is a client-side CRUD (Create, Read, Update, Delete) recipe web application developed by a team of 12 following Agile methodologies. This project demonstrates comprehensive software engineering practices including sprint planning, continuous integration, and collaborative development.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: page
-title: project
-description: a project with a background image
-img: /assets/img/12.jpg
----
-</code></pre></div></div>
+<h2 id="key-features">Key Features</h2>
+
+<div class="row mt-3">
+    <div class="col-md-6">
+        <h5>
+<i class="fas fa-plus-circle text-success"></i> Create Recipes</h5>
+        <p class="small">Add new recipes with ingredients, instructions, and images</p>
+    </div>
+    <div class="col-md-6">
+        <h5>
+<i class="fas fa-eye text-info"></i> View Recipes</h5>
+        <p class="small">Browse and read detailed recipe information</p>
+    </div>
+    <div class="col-md-6">
+        <h5>
+<i class="fas fa-edit text-warning"></i> Edit &amp; Update</h5>
+        <p class="small">Modify existing recipes with real-time updates</p>
+    </div>
+    <div class="col-md-6">
+        <h5>
+<i class="fas fa-trash text-danger"></i> Delete Management</h5>
+        <p class="small">Remove recipes with confirmation safeguards</p>
+    </div>
+</div>
+
+<h2 id="technical-stack">Technical Stack</h2>
+
+<div class="row mt-3">
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h6 class="card-title">
+<i class="fab fa-html5 text-danger"></i> Frontend</h6>
+                <ul class="small list-unstyled">
+                    <li>• HTML5 &amp; CSS3</li>
+                    <li>• Vanilla JavaScript (ES6+)</li>
+                    <li>• Responsive Design</li>
+                    <li>• Web Components</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h6 class="card-title">
+<i class="fas fa-database text-primary"></i> Data Storage</h6>
+                <ul class="small list-unstyled">
+                    <li>• Browser Local Storage</li>
+                    <li>• JSON Data Format</li>
+                    <li>• Client-side Persistence</li>
+                    <li>• No Backend Required</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h6 class="card-title">
+<i class="fas fa-server text-success"></i> Deployment</h6>
+                <ul class="small list-unstyled">
+                    <li>• GitHub Pages (Static)</li>
+                    <li>• GitHub Actions CI/CD</li>
+                    <li>• Jest for Testing</li>
+                    <li>• ESLint for Code Quality</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 id="development-process">Development Process</h2>
+
+<h3 id="agile-methodology">Agile Methodology</h3>
+<ul>
+  <li>
+<strong>10-week development cycle</strong> with bi-weekly sprints</li>
+  <li>
+<strong>Daily stand-ups</strong> and sprint retrospectives</li>
+  <li>
+<strong>Continuous Integration/Continuous Deployment</strong> (CI/CD) pipeline</li>
+  <li>
+<strong>Code reviews</strong> and pair programming sessions</li>
+</ul>
+
+<h3 id="my-role-as-team-lead">My Role as Team Lead</h3>
+<p>As the team lead for this 12-person group, I was responsible for:</p>
+<ul>
+  <li>
+<strong>Project coordination</strong> and sprint planning</li>
+  <li>
+<strong>UI/UX design</strong> decisions and implementation oversight</li>
+  <li>
+<strong>Repository management</strong> and code review processes</li>
+  <li>
+<strong>Documentation</strong> maintenance and technical writing</li>
+  <li>
+<strong>Stakeholder communication</strong> and progress reporting</li>
+</ul>
+
+<h2 id="project-outcomes">Project Outcomes</h2>
+
+<div class="alert alert-success" role="alert">
+    <h6 class="alert-heading text-dark">
+<i class="fas fa-trophy"></i> Achievements</h6>
+    <ul class="mb-0 small text-dark">
+        <li class="text-dark">Successfully delivered a fully functional CRUD web application</li>
+        <li class="text-dark">Maintained 95% code coverage with comprehensive testing</li>
+        <li class="text-dark">Implemented responsive design for mobile and desktop users</li>
+        <li class="text-dark">Created detailed documentation for future maintenance</li>
+    </ul>
+</div>
+
+<h2 id="resources">Resources</h2>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/1-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/1-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/1-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/1.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
+    <div class="col-md-6 mb-2">
+        <a href="https://github.com/TomlandHilarious/cse110-fall22-group12" class="btn btn-dark btn-block" target="_blank" rel="external nofollow noopener">
+            <i class="fab fa-github"></i> View on GitHub
+        </a>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/3-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/3-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/3-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/3.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/5-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/5-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/5.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
+    <div class="col-md-6 mb-2">
+        <a href="https://github.com/TomlandHilarious/cse110-fall22-group12/blob/main/README.md" class="btn btn-info btn-block" target="_blank" rel="external nofollow noopener">
+            <i class="fas fa-book"></i> Documentation
+        </a>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/5-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/5-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/5.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-<p>You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, <em>bled</em> for your project, and then… you reveal its glory in the next row of images.</p>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/6-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/6-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/6-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/6.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/11-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/11-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/11-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/11.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-<p>The code is simple.
-Just wrap your images with <code class="language-plaintext highlighter-rouge">&lt;div class="col-sm"&gt;</code> and place them inside <code class="language-plaintext highlighter-rouge">&lt;div class="row"&gt;</code> (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" rel="external nofollow noopener" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add <code class="language-plaintext highlighter-rouge">img-fluid</code> class to each; for rounded corners and shadows use <code class="language-plaintext highlighter-rouge">rounded</code> and <code class="language-plaintext highlighter-rouge">z-depth-1</code> classes.
-Here’s the code for the last row of images above:</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-sm-center"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-8 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-4 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</code></pre></div></div>
-
+<h3 id="technologies-used">Technologies Used</h3>
+<p><code class="language-plaintext highlighter-rouge">JavaScript</code> <code class="language-plaintext highlighter-rouge">HTML5</code> <code class="language-plaintext highlighter-rouge">CSS3</code> <code class="language-plaintext highlighter-rouge">Local Storage</code> <code class="language-plaintext highlighter-rouge">Web Components</code> <code class="language-plaintext highlighter-rouge">Jest</code> <code class="language-plaintext highlighter-rouge">Puppeteer</code> <code class="language-plaintext highlighter-rouge">ESLint</code> <code class="language-plaintext highlighter-rouge">GitHub Pages</code> <code class="language-plaintext highlighter-rouge">GitHub Actions</code> <code class="language-plaintext highlighter-rouge">Agile/Scrum</code></p>
 
           </article>
 
@@ -305,7 +281,7 @@ Here’s the code for the last row of images above:</p>
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Ruoxuan  Li. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+        © Copyright 2025 Ruoxuan  Li. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
 
       </div>
     </footer>
