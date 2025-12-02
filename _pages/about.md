@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=mailto:ruli@ucsd.edu>Contact Me via Email</a>.
+subtitle: <a href=mailto:rl3403@columbia.edu>Contact Me via Email</a>.
           Freedom, Innovation, Challenges.
  
 
@@ -21,13 +21,48 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Ruoxuan Li, a passionate and driven individual with a strong academic background. I graduated from UCSD with a degree in Cognitive Science, specializing in machine learning and neural networks. Currently, I am excited to embark on the next chapter of my academic journey as an incoming student for the Master of Science degree in Data Science at Columbia University.
+I am **Ruoxuan Li (李若瑄)**, a researcher working at the intersection of cognitive science, data science, and human centered-AI. I am particularly interested in how long-term interactions with large language models (LLMs) and other personalized AI systems shape the way people think about themselves, evaluate their decisions, and decide when to change their behavior.
 
-My research interests revolve around Human-Computer Interaction (HCI) and computing education. I have worked on  projects related to machine learning, deep learning, and statistical learning. Seeking to deepen my understanding and skills in these fields, I am actively pursuing data science and software development internships, as well as research opportunities.
+I completed my B.S. in Cognitive Science (with a minor in Computer Science) at UC San Diego, where I specialized in machine learning and neural networks. I then earned an M.S. in Data Science at Columbia University. Since then, I have worked as a research assistant on multiple research teams at Columbia, collaborating with faculty in psychiatry, psychology, and economics. My research sits between cognitive science, NLP, and HCI. In the long term, I hope to build personalized AI systems that can support people’s metacognition, especially for individuals with diverse cognitive profiles.
 
-Beyond my academic pursuits, I find joy and relaxation in various activities. I am an avid hiker, always on the lookout for scenic trails to explore. Birding is another passion of mine, as I find solace in observing and identifying different bird species. I also enjoy traveling to new places, immersing myself in diverse cultures, and expanding my horizons. 
+Outside of research, I recharge by being outdoors with a camera in hand. I have been birding since middle school and still feel a quiet kind of happiness whenever I spot a new species through the viewfinder. I also enjoy hiking, wandering in cities, and traveling to places that combine good food with interesting conversations.
 
-With a thirst for knowledge and a zest for life, I am on a journey to make a positive impact in the fields of data science, machine learning, and beyond.
+I always look forward to meeting people who share similar interests or whose work overlaps with mine! Feel free to reach out to me via email! 
+
+---
+
+## Explore My Work
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card h-100 text-center d-flex flex-column">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title"><i class="fas fa-project-diagram"></i> Projects</h5>
+                <p class="card-text small flex-grow-1">Explore my research projects and portfolio work across machine learning, human-centered research, and more.</p>
+                <a href="/projects/" class="btn btn-purple btn-sm mt-auto">View Projects</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 text-center d-flex flex-column">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title"><i class="fas fa-file-alt"></i> Publications</h5>
+                <p class="card-text small flex-grow-1">Read my peer-reviewed publications and research papers on cognitive science, HCI, and computing education.</p>
+                <a href="/publications/" class="btn btn-purple btn-sm mt-auto">View Publications</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 text-center d-flex flex-column">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title"><i class="fas fa-heart"></i> Interests</h5>
+                <p class="card-text small flex-grow-1">Discover my photography, writing, and other passions beyond research.</p>
+                <a href="/interests/" class="btn btn-purple btn-sm mt-auto">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 

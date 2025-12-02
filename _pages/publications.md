@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: publications
-description: here are some academic work that I have done
-years: [2023]
+# description: All the publications I have done.
+years: [2025, 2024, 2023]
 nav: true
 nav_order: 1
 ---

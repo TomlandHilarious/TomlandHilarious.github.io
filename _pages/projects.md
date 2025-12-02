@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my cool projects.
 nav: true
 nav_order: 2
-display_categories: [machine learning, human-centered]
+display_categories: [machine learning research, human-centered research, side projects]
 horizontal: false
 ---
 

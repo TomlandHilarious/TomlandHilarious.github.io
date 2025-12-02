@@ -6,141 +6,119 @@
     - name: Date of Birth
       value: 11th November 2001
     - name: Languages
-      value: English, Mandarin
+      value: English (Fluent), Mandarin (Native)
+    - name: Research Interests
+      value: Human-AI interaction; personalized AI agents for cognitive support; neural decoding; cognitive diversity
 
 - title: Education
   type: time_table
   contents:
     - title: Master of Science in Data Science
-      institution: Columbia University, NY, U.S
-      year: 2023-2024
+      institution: Columbia University, New York, USA
+      year: 2023 - 2024
       description:
-        - Incoming student at CU
-  
-
-    - title: Bachelor of Science in Cognitive Science with a specialization in ML and NN
-      institution: UC San Diego, CA, U.S.
-      year: 2019-2023
+        - "GPA: 3.83"
+    - title: Bachelor of Science in Cognitive Science (Machine Learning track)
+      institution: University of California, San Diego, CA, USA
+      year: 2019 - 2023
       description:
-        - Minor in CS.
-        - Major GPA - 4.0 ; Overall GPA - 3.94.
-        - title: Relevant courses
-          contents:
-            - Data Analysis and Visualization
-            - Neural Computation & Machine Learning & Neural Networks
-            - Advanced Data Structures & Algorithm Analysis
-            - Statistics & Probability & Calculus
-
-
+        - Minor in Computer Science.
+        - "GPA: 3.94; Magna Cum Laude"
 - title: Experience
   type: time_table
   contents:
-    - title: Remote Data Scientist Intern
-      institution: EdgeDevice.AI LLC, Redwood City, CA
-      year: 2022 - 2022
-      description:
-        - Programmed web scraping script to obtain household information on Zillow and Redfin, developed K-nearest neighbor, and polynomial regression with L1 and L2 regularization to obtain the best algorithm.
-        - Performed data analysis housing prices while considering seasonality and trend and achieved the MAPE of 0.5 to determine the best investment strategy.
-        - Utilized PHP to query information from the database to conduct ad-hoc analysis in preparation for future automation development
-
-    - title: Tutor
-      institution: UC San Diego, San Diego, CA
-      year: 2022 - 2023
-      description:
-        - Tutored in CSE 15L - Software tools and Technique and CSE 8A Introduction to Programming and Computational Problem-Solving I course
-        - Conducted in-person labs, assisting students in grasping fundamental concepts of Python programming such as variables, if conditions, for loops, while loops, etc.
-        - Held regular office hours to address students' questions and provide guidance on Python programming and basic computer science principles.
-        - Assessed and graded students' lab reports, providing detailed feedback to help them improve their understanding of software tools and techniques.
-        - Collaborated with the course instructors in designing and refining weekly programming assignments, ensuring they align with the learning objectives and challenge students appropriately.
-
-
+    - title: Research Assistant
+      institution: New York State Psychiatric Institute, Columbia University Irving Medical Center, New York, NY
+      year: 2025 - present
+      description: Led development of a portable decoded EEG neurofeedback platform using Muse-S with real-time feedback and EEGNet-based decoding (first-author manuscript in preparation). Contributed to a hybrid CNN-Transformer project on ileal pouch neoplasia, validating deep-learning code and co-authoring internal grant proposals.
+    - title: Staff Associate I
+      institution: Columbia Business School, New York, NY
+      year: 2025
+      description: Developed MoRA-DETM, a LoRA-adapted dynamic topic modeling framework for embedding multiple text corpora into a unified topic space. Built an end-to-end pipeline for text preprocessing, temporal topic modeling, visualization, and technical reporting.
+    - title: Graduate Research Assistant
+      institution: Columbia University Living Lab, New York, NY
+      year: 2024 - 2025
+      description: Developed multimodal fusion models combining Muse EEG signals with facial landmarks to classify attentional states during lectures, achieving 81% validation accuracy. Authored experimental protocols, managed behavioral data collection, and trained undergraduate research assistants.
+    - title: Graduate Research Assistant
+      institution: Columbia Data Science Institute, New York, NY
+      year: 2024
+      description: Led a team of five to design and implement a global climate-claim fact-checking prototype (Webflow UI, AWS Lambda, DynamoDB) integrating model predictions and crowdsourced verification. Architected backend services and database schema for scalable claim storage and retrieval.
+    - title: Data Analyst for Vice Dean of Research
+      institution: Columbia Business School, New York, NY
+      year: 2024
+      description: Provided data analysis support for faculty and PhD research projects, including time-series analysis and survey data cleaning. Conducted statistical audits for a preregistered study on status insecurity, identifying data and analytical issues before journal publication.
+    - title: NLP Research Intern
+      institution: Johnson and Johnson Innovative Medicine, Titusville, NJ
+      year: 2024
+      description: Designed and developed DocxParser, a Word-integrated pipeline that embeds LLM-generated fact-check edits as reviewer-mode suggestions in clinical drug submissions. Implemented XML-based document normalization and an LLM-based evidence retrieval module achieving 97% phrase-to-source alignment.
     - title: Undergraduate Research Assistant
-      institution: UCSD, San Diego, CA
-      year: 2022 - Now
-      description:
-        - Anonymized and cleaned aggregated surveys obtained from previous researchers, ensuring data privacy and confidentiality.
-        - Performed qualitative and quantitative analysis on the anonymized data. 
-        - Collaborated with the researchers to discuss and refine research objectives, methodologies, and results of multiple projeccts.
-        - - Communicates research progress, challenges, and results effectively through written reports.
+      institution: SMoL Lab, UC San Diego, La Jolla, CA
+      year: 2022 - 2023
+      description: Designed and implemented an interactive microaggression-focused CAPTCHA as an intervention tool for workshops. Ran workshops and documented participant feedback that informed iterative design and the CSCW paper on designing for microaggressions.
+    - title: Undergraduate Research Assistant
+      institution: CSEd Research Lab, UC San Diego, La Jolla, CA
+      year: 2022 - 2023
+      description: Performed statistical analyses to assess course design effects on student confidence. Created publication-quality visualizations and contributed to qualitative coding for SIGCSE publications.
 
-    - title: Instructional Assistant
-      institution: UC San Diego, San Diego, CA
-      year: 2022 - 2022
-      description:
-        - Tutored students in a data science and machine learning course, providing guidance and support in understanding and applying key concepts.
-        - Held weekly office hours to address student questions, clarifications, and provide additional assistance outside of class.
-        - Managed the nbgrader system, responsible for grading assignments, ensuring fairness and consistency in evaluation.
-        - Provided guidance and feedback to students on their data science projects, offering insights and suggestions to enhance their understanding and project outcomes.
-        - Collaborated with instructors and teaching staff to maintain an effective learning environment and contribute to the continuous improvement of the course curriculum.
+- title: Teaching and Mentoring
+  type: time_table
+  contents:
+    - title: BRAINYAC Mentor
+      institution: Zuckerman Institute, Columbia University, New York, NY
+      year: 2025
+      description: Mentored high school students on EEG data collection and analysis in a neuroscience research setting.
+    - title: Teaching Assistant
+      institution: Columbia University, New York, NY
+      year: 2024
+      description: Teaching assistant for STAT GR5293 Applied Machine Learning for Computer Vision; supported instruction, office hours, and grading.
+    - title: Tutor
+      institution: UC San Diego, La Jolla, CA
+      year: 2022
+      description: Tutor for COGS 108 Data Science in Practice, CSE 8A, and CSE 15L; led labs, held office hours, and supported students in programming and data science fundamentals.
 
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://brainstormcards.netlify.app/">Microaggression Intervention Designs</a>
+    - title: '<a href="https://brainstormcards.netlify.app/">Microaggression Intervention Designs</a>'
       year: 2023
-      description:
-        - Invovled in designing multiple Microaggression interventions, including the Microaggression Captcha, Microaggression Garden, and Microaggression Phone Booth, to provide individuals with tools to recognize and respond to microaggressions.
-        - Built and maintained the Microaggression (MA) website and prototype of Microaggression Captcha for workshop purposes.
-        - Collaborated with the team to organize and facilitate Microaggression workshops.
-    
-    - title: <a href="https://github.com/TomlandHilarious/Fine_Grained_Bird_Classification">Fine-Grained Bird Classification</a>
+      description: Co-designed a suite of microaggression intervention tools (Captcha, Garden, Phone Booth) and built the interactive project website used in workshops.
+    - title: '<a href="https://github.com/TomlandHilarious/Fine_Grained_Bird_Classification">Fine-Grained Bird Classification</a>'
       year: 2023
-      description: 
-        - Created and deployed custom fine-grained bird classification models self-designed CNN and masked CNN (with background removal) and compared model performances with the pre-trained ResNet-50 model. 
-        - Compared model performance and identified that the masked approach outperformed non-masked models, while ResNet50 achieved the highest accuracy.
-        - Employed data visualization and deep learning techniques on a complex image dataset and generated a comprehensive written report and a presentation video showcasing the project's methodology and findings.
-    - title: <a href="https://github.com/TomlandHilarious/COGS-189-Dinosaur-Game-with-Eyeblink">Hands-Free Dino Jump - EEG-Driven Gameplay with Eyeblinks Using Statistical Learning</a>
+      description: Created custom fine-grained bird classification models using self-designed CNNs with and without background masking, comparing performance to pre-trained ResNet-50.
+    - title: '<a href="https://github.com/TomlandHilarious/COGS-189-Dinosaur-Game-with-Eyeblink">Hands-Free Dino Jump - EEG-Driven Gameplay with Eyeblinks</a>'
       year: 2023
-      description:
-        - Led a team of 6 members in collecting and preprocessing EEG data using Cyton devices and preprocessed and filtered data to identify patterns related to eyeblinks.
-        - Designed and applied statistical learning algorithms to detect individuals' unique eyeblink patterns from the EEG data and utilized Simple Voltage Thresholding (SVT) to establish a connection between the EEG signals and a virtual keyboard, enabling users to control the game with their eyeblink patterns.
-        - Presented the project, highlighting the integration of EEG signals with SVT and statistical learning to create an immersive and hands-free gaming experience for users.
-    - title: <a href="https://github.com/TomlandHilarious/cse110-fall22-group12">MemoEats - Agile CRUD Web App</a>
+      description: Led a team to collect and preprocess EEG data from Cyton devices, applied statistical learning to detect eyeblink patterns, and linked EEG detection to a virtual keyboard for hands-free game control.
+    - title: '<a href="https://github.com/TomlandHilarious/cse110-fall22-group12">MemoEats - Agile CRUD Web App</a>'
       year: 2022
-      description:
-        - Led a team of 12 members using Agile practices in the development of a CRUD web-based recipe application within a 10-week timeframe.
-        - Developed a CRUD web-based recipe app that allows users to add, store, view, and edit their recipes.
-        - Took charge of the overall project supervision, including designing and refining the website layout, conducting meetings, and overseeing UI/UX testing and managed source files, meeting notes, documentations, and Architecture Decision Records (ADRs) within the repository.
-        - Successfully coordinated the team efforts to deliver a functional and user-friendly CRUD application named "MemorEats".
-    - title: <a href="https://dl.acm.org/doi/pdf/10.1145/3545945.3569865">Fears and Confidence in Introductory CS Courses</a>
-      year: 2023
-      description:
-        - Investigated fears and confidence levels among non-majors in introductory CS courses.
-        - Analyzed and anonymized aggregated surveys from previous researchers, employing qualitative and quantitative analysis techniques.
-        - Utilized statistical methodologies to conduct exploratory analysis and generate significant findings for the final research paper.
-    - title: <a href="https://github.com/TomlandHilarious/EEG-Familiarity">EEG-Familiarity Prediction</a>
+      description: Led a 12-person team to build a CRUD recipe web application following Agile practices, overseeing UI design, project coordination, and repository documentation.
+    - title: '<a href="https://github.com/TomlandHilarious/EEG-Familiarity">EEG-Familiarity Prediction</a>'
       year: 2022
-      description:
-        - Replicated and verified the results of a research paper that utilized EEG data to predict subjects' memory recall ability.
-        - Detected and rectified errors present in the scripts of the previously published paper, ensuring the accuracy of the experimental outcomes.
-        - Translated MATLAB code into Python scripts and developed object-oriented functions within the Preprocessing-Data class, facilitating generic data preprocessing operations.
-      
-    
+      description: Replicated and validated a published EEG-based memory recall study by translating MATLAB scripts to Python and correcting errors in the original analysis pipeline.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2022 - Now
-      items: 
-        - Member at Phi Beta Kappa
+    - year: 2022 - present
+      items:
+        - Member, Phi Beta Kappa.
     - year: 2019 - 2023
-      items: 
-        - Warren College Provost Honors
-
-- title: Academic Interests
+      items:
+        - Warren College Provost Honors, UC San Diego.
+        - Magna Cum Laude, UC San Diego.
+- title: Skills
   type: nested_list
   contents:
-    - title: Computing Education and HCI 
-      items: 
-        - Exploring innovative approaches to teaching and learning computer science, with a focus on enhancing student engagement, motivation, and comprehension.
-        - Investigating human-computer interaction (HCI) design principles and methodologies to create intuitive and user-friendly educational software and interfaces.
-
-    - title: Deep Learning
+    - title: Programming and Machine Learning
       items:
-        - Researching and developing deep learning models and algorithms for various applications, such as computer vision, natural language processing, and pattern recognition.
-        - Exploring advanced techniques in deep learning, including generative adversarial networks (GANs), recurrent neural networks (RNNs), and transformers, to push the boundaries of artificial intelligence.
+        - Python, R, SQL, PyTorch, scikit-learn, NumPy, Pandas, Hugging Face.
+    - title: Experimentation and Tools
+      items:
+        - MNE-Python, Lab Streaming Layer (pylsl), PsychoPy, Muse-S, EEGLAB, Matplotlib, Seaborn, D3.js, Selenium.
+    - title: Languages
+      items:
+        - English (Fluent), Mandarin (Native).
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Birding, Hiking, Traveling, Music, Photography, Literature, Movies.
+    - <u>Hobbies:</u> Birding, hiking, traveling, photography, music, literature, movies.

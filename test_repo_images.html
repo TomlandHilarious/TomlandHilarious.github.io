@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Repository Images</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .repo-container { margin: 20px 0; }
+        img { margin: 10px; border: 1px solid #ccc; }
+        .status { padding: 5px; margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <h1>Testing GitHub Repository Card Images</h1>
+    
+    <div class="repo-container">
+        <h2>1. COGS-189-Dinosaur-Game-with-Eyeblink</h2>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=TomlandHilarious&repo=COGS-189-Dinosaur-Game-with-Eyeblink&theme=default&show_owner=true" 
+             alt="COGS-189-Dinosaur-Game-with-Eyeblink" 
+             onerror="this.nextElementSibling.textContent='❌ Failed to load'">
+        <div class="status">Loading...</div>
+    </div>
+    
+    <div class="repo-container">
+        <h2>2. EEG-Familiarity</h2>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=TomlandHilarious&repo=EEG-Familiarity&theme=default&show_owner=true" 
+             alt="EEG-Familiarity"
+             onerror="this.nextElementSibling.textContent='❌ Failed to load'">
+        <div class="status">Loading...</div>
+    </div>
+    
+    <div class="repo-container">
+        <h2>3. Fine_Grained_Bird_Classification</h2>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=TomlandHilarious&repo=Fine_Grained_Bird_Classification&theme=default&show_owner=true" 
+             alt="Fine_Grained_Bird_Classification"
+             onerror="this.nextElementSibling.textContent='❌ Failed to load'">
+        <div class="status">Loading...</div>
+    </div>
+    
+    <div class="repo-container">
+        <h2>4. cse110-fall22-group12</h2>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=TomlandHilarious&repo=cse110-fall22-group12&theme=default&show_owner=true" 
+             alt="cse110-fall22-group12"
+             onerror="this.nextElementSibling.textContent='❌ Failed to load'">
+        <div class="status">Loading...</div>
+    </div>
+    
+    <script>
+        // Check if images load successfully
+        document.querySelectorAll('img').forEach(img => {
+            img.onload = function() {
+                this.nextElementSibling.textContent = '✅ Loaded successfully';
+                this.nextElementSibling.style.color = 'green';
+            };
+            img.onerror = function() {
+                this.nextElementSibling.textContent = '❌ Failed to load - Check if repo is public';
+                this.nextElementSibling.style.color = 'red';
+            };
+        });
+    </script>
+</body>
+</html>

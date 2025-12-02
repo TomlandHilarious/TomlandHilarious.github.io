@@ -1,80 +1,177 @@
 ---
 layout: page
-title: EEG-Familiarity Prediction
-description: EEG and LDA
-img:
-importance: 4
-category: machine learning
+title: A Deep-Learning Based Decoded EEG Neurofeedback Platform Using Muse-S
+description: Open-source, portable neurofeedback platform using consumer-grade EEG and deep learning for real-time brain state decoding.
+img: assets/img/platform.png
+importance: 1
+category: machine learning research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project develops an **open-source, deep learning-driven decoded EEG neurofeedback platform** that transforms expensive, immobile fMRI-based neurofeedback into an accessible, portable solution using consumer-grade Muse-S headsets. The platform enables real-time brain state decoding and feedback delivery, making neurofeedback therapy more practical for clinical applications, especially for children and patients with movement difficulties.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Motivation & Impact
+
+<div class="row mt-3">
+    <div class="col-md-6">
+        <div class="card h-100 border-danger">
+            <div class="card-body">
+                <h5 class="card-title text-danger"><i class="fas fa-times-circle"></i> Traditional fMRI Limitations</h5>
+                <ul class="small">
+                    <li>$500-700 per hour cost</li>
+                    <li>Requires 3-10 sessions across days</li>
+                    <li>Immobile, scanner-bound</li>
+                    <li>Unsuitable for frequent clinical use</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card h-100 border-success">
+            <div class="card-body">
+                <h5 class="card-title text-success"><i class="fas fa-check-circle"></i> Our EEG Solution</h5>
+                <ul class="small">
+                    <li>Negligible running costs</li>
+                    <li>Portable & wireless (Muse-S)</li>
+                    <li>No gel preparation needed</li>
+                    <li>Real-time feedback capability</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+## Technical Architecture
+
+### Platform Components
+
+<div class="row mt-3">
+    <div class="col-md-4">
+        <div class="text-center">
+            <i class="fas fa-brain fa-3x text-primary mb-2"></i>
+            <h5>Data Acquisition</h5>
+            <p class="small">Muse-S headset with 4 dry electrodes (TP9/AF7/AF8/TP10) at 256Hz sampling rate</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="text-center">
+            <i class="fas fa-network-wired fa-3x text-info mb-2"></i>
+            <h5>Real-time Streaming</h5>
+            <p class="small">Lab Streaming Layer (LSL) for synchronized EEG data and event markers</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="text-center">
+            <i class="fas fa-robot fa-3x text-success mb-2"></i>
+            <h5>Deep Learning Decoder</h5>
+            <p class="small">EEGNet CNN architecture for real-time brain state classification</p>
+        </div>
+    </div>
+</div>
+
+### Dual-Branch System
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h5><i class="fas fa-stream"></i> Online Branch</h5>
+        <p class="small"><strong>Real-time neurofeedback delivery:</strong></p>
+        <ul class="small">
+            <li>Live EEG streaming via LSL</li>
+            <li>4-second sliding window analysis</li>
+            <li>Real-time decoder predictions</li>
+            <li>Visual feedback via PsychoPy UI</li>
+            <li>6s induction → 2s fixation → 2s feedback cycle</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h5><i class="fas fa-database"></i> Offline Branch</h5>
+        <p class="small"><strong>Decoder training pipeline:</strong></p>
+        <ul class="small">
+            <li>Data collection & quality control</li>
+            <li>Event segmentation & labeling</li>
+            <li>EEGNet model training</li>
+            <li>Cross-session validation</li>
+            <li>Model freezing for online deployment</li>
+        </ul>
+    </div>
+</div>
+
+## Model Performance
+
+<div class="alert alert-success mt-3" role="alert">
+    <h5 class="alert-heading text-dark"><i class="fas fa-chart-line"></i> Validation Results</h5>
+    <div class="row">
+        <div class="col-md-3 text-center">
+            <h3 class="mb-0 text-dark">0.904</h3>
+            <small class="text-dark">AUC Score</small>
+        </div>
+        <div class="col-md-3 text-center">
+            <h3 class="mb-0 text-dark">84.8%</h3>
+            <small class="text-dark">Accuracy</small>
+        </div>
+        <div class="col-md-3 text-center">
+            <h3 class="mb-0 text-dark">0.861</h3>
+            <small class="text-dark">F1-Score</small>
+        </div>
+        <div class="col-md-3 text-center">
+            <h3 class="mb-0 text-dark">94.6%</h3>
+            <small class="text-dark">Recall</small>
+        </div>
+    </div>
+</div>
+
+### EEGNet Architecture Details
+
+The decoder employs a compact convolutional neural network specifically designed for EEG-based BCIs:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-12">
+        <ul class="small">
+            <li><strong>Input:</strong> 2 channels (TP9, TP10) × 1024 time points (4 seconds at 256Hz)</li>
+            <li><strong>Block 1:</strong> Temporal convolution (8 filters, 1×64 kernel) for frequency-specific features</li>
+            <li><strong>Block 2:</strong> Depthwise spatial convolution (16 filters, 2×1 kernel) with ELU activation</li>
+            <li><strong>Block 3:</strong> Separable convolution (16 filters, 1×16 kernel) combining temporal-spatial info</li>
+            <li><strong>Output:</strong> Binary classification (motor vs. rest state)</li>
+        </ul>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+## Clinical Applications
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-3">
+    <div class="col-md-6">
+        <h5><i class="fas fa-child text-primary"></i> Pediatric Therapy</h5>
+        <p class="small">Suitable for children with ADHD or autism who cannot tolerate gel-based EEG or fMRI scanners</p>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6">
+        <h5><i class="fas fa-wheelchair text-info"></i> Motor Rehabilitation</h5>
+        <p class="small">Portable neurofeedback for stroke patients and individuals with motor disabilities</p>
     </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    <div class="col-md-6">
+        <h5><i class="fas fa-brain text-warning"></i> Cognitive Training</h5>
+        <p class="small">Attention enhancement and working memory improvement through targeted neurofeedback</p>
+    </div>
+    <div class="col-md-6">
+        <h5><i class="fas fa-heartbeat text-danger"></i> Mental Health</h5>
+        <p class="small">Potential applications in anxiety, phobia, and PTSD treatment protocols</p>
+    </div>
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Resources
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-3">
+    <div class="col-md-6">
+        <a href="https://github.com/xinyanghe08/DecNef-EEG" class="btn btn-dark btn-block" target="_blank">
+            <i class="fab fa-github"></i> Source Code
+        </a>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6">
+        <a href="/assets/pdf/decnef_poster_final.pdf" class="btn btn-success btn-block" target="_blank">
+            <i class="fas fa-file-pdf"></i> Research Poster
+        </a>
     </div>
 </div>
-```
-{% endraw %}
+## Update
+I am currently working on the manuscript, and the compelte manuscript is expected to be done by the end of December 2025.

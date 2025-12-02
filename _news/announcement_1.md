@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am graduating from UC San Diego!!:sparkles: :smile:
+I graduated from UC San Diego!!:sparkles: :smile:
