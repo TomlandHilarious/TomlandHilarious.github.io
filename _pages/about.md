@@ -8,11 +8,11 @@ subtitle: <a href=mailto:rl3403@columbia.edu>Contact Me via Email</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>“Learn what is to be taken seriously and laugh at the rest.”</p>
-    <p>    ― Herman Hesse</p>
+    <p>"I study myself more than any other subject. That is my metaphysics, that is my physics."</p>
+    <p>    ― Michel de Montaigne</p>
     
 
 news: true  # includes a list of news items

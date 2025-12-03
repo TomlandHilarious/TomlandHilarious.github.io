@@ -2,20 +2,20 @@
 layout: page
 title: interests
 permalink: /interests/
-description: Beyond research and work — photography, writing, and other passions
+description: My interests beyond research and work.
 nav: true
 nav_order: 4
 ---
 
-## Photography
+## Birding & Wildlife Photography
 
-I'm passionate about capturing the world through photography. My work spans landscapes, wildlife, and documentary photography, with a particular interest in birding and nature photography. I've been birding since middle school and love discovering new species through my camera lens.
+I'm passionate about capturing wildlife through photography. I've been birding since middle school and love discovering new species through my camera lens. Sometimes I photograph other animals too, like chipmunks, lizards, and snakes.
 
-### Bird Photography
+Here are some photos of birds I took after moving to New York City.
 
 <div class="row mt-3">
     <div class="col-md-4">
-        {% include figure.html path="assets/img/night_hero.jpg" title="Night Heron" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/night_heron.jpg" title="Night Heron" class="img-fluid rounded z-depth-1" %}
         <div class="caption text-center mt-2">Night Heron</div>
     </div>
     <div class="col-md-4">
@@ -32,20 +32,21 @@ I'm passionate about capturing the world through photography. My work spans land
 
 ## Writing
 
-Beyond academic writing, I enjoy creative writing and exploring ideas through essays and blog posts.
+I'm a big fan of literature and deeply influenced by Western writers who dedicate themselves to exploring humanity and the complexities of self-understanding. Authors like Gabriel García Márquez, Hermann Hesse, and Albert Camus have shaped my perspective on writing and life. Their works, such as*One Hundred Years of Solitude*, *Siddhartha*, and *The Stranger*, explore profound questions about existence, identity, and what it means to be human. My own writing is heavily impacted by their work.
 
-### Novels & Creative Writing
 
-<!-- Add your creative writing projects here -->
+- **[A Random Walk in Spring](/blog/2025/spring-in-new-york/)** - I wrote this Chinese prose about wandering in Central Park on a random spring day.
 
-### Blog Posts & Essays
+---
 
-<!-- Add your blog posts or essays here -->
+## Music
+
+When I'm not working, you'll usually find me buried in music: alternative rock, post-rock, and indie on repeat, with R&B, hip hop, jazz, and anime soundtracks filling in the rest. Recently, I’ve been listening to a lot of Benson Boone.
 
 ---
 
 ## Other Interests
 
-**Hobbies:** Birding, hiking, traveling, music, literature, and movies.
+**Hobbies:** hiking, traveling.
 
-I'm always exploring new places, discovering new music, and engaging with stories across different media.
+I love exploring new places and meeting new people. The first thing I usually do in a new city is look for a museum. Museums are my favorite way to quickly understand local history and culture. What I enjoy most about traveling is how it teaches me about the people who live there and how they see their own world.
