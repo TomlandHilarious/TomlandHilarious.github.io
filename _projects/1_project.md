@@ -161,12 +161,8 @@ This work was published in **Proceedings of the ACM on Human-Computer Interactio
 ## Additional Resources on Microaggressions
 
 <div class="list-group mt-3">
-    <a href="https://diversity.gwu.edu/resources-implicit-bias-microaggressions" class="list-group-item list-group-item-action" target="_blank">
-        <h6 class="mb-1"><i class="fas fa-university"></i> George Washington University</h6>
-        <small class="text-muted">Resources on Implicit Bias and Microaggressions - Educational materials and guides</small>
-    </a>
-    <a href="https://www.nationalequityproject.org/responding-to-microaggressions-and-unconscious-bias" class="list-group-item list-group-item-action" target="_blank">
-        <h6 class="mb-1"><i class="fas fa-balance-scale"></i> National Equity Project</h6>
-        <small class="text-muted">Responding to Microaggressions and Unconscious Bias - Practical intervention strategies</small>
+    <a href="https://www.reddit.com/r/microaggressions/" class="list-group-item list-group-item-action" target="_blank">
+        <h6 class="mb-1"><i class="fab fa-reddit"></i> Reddit Community</h6>
+        <p class="small text-muted mb-0">r/microaggressions - Community discussion and support forum</p>
     </a>
 </div> 
