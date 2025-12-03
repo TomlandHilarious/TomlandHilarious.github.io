@@ -32,7 +32,7 @@ Here are some photos of birds I took after moving to New York City.
 
 ## Writing
 
-I'm a big fan of literature and deeply influenced by Western writers who dedicate themselves to exploring humanity and the complexities of self-understanding. Authors like Gabriel García Márquez, Hermann Hesse, and Albert Camus have shaped my perspective on writing and life. Their works, such as*One Hundred Years of Solitude*, *Siddhartha*, and *The Stranger*, explore profound questions about existence, identity, and what it means to be human. My own writing is heavily impacted by their work.
+I'm a big fan of literature and deeply influenced by Western writers who dedicate themselves to exploring humanity and the complexities of self-understanding. Authors like Gabriel García Márquez, Hermann Hesse, and Albert Camus have shaped my perspective on writing and life. Their works, such as *One Hundred Years of Solitude*, *Siddhartha*, and *The Stranger*, explore profound questions about existence, identity, and what it means to be human. My own writing is heavily impacted by their work.
 
 
 - **[A Random Walk in Spring](/blog/2025/spring-in-new-york/)** - I wrote this Chinese prose about wandering in Central Park on a random spring day.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Joining NYS Psychiatric Institute as Research Assistant
+title: Joining NYSPI as Research Assistant
 date: 2025-02-17 08:00:00-0500
 inline: false
 related_posts: false
