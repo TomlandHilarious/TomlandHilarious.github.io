@@ -3,17 +3,30 @@ layout: default
 ---
 
 <!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+      <div class="post about-page">
+        <section class="horizon-hero" aria-labelledby="about-title">
+          <div class="horizon-art" aria-hidden="true">
+            <span class="horizon-sun"></span>
+            <span class="horizon-cloud horizon-cloud-one"></span>
+            <span class="horizon-cloud horizon-cloud-two"></span>
+            <span class="horizon-line"></span>
+            <span class="horizon-ocean horizon-ocean-one"></span>
+            <span class="horizon-ocean horizon-ocean-two"></span>
+          </div>
 
-        <article>
+          <div class="horizon-intro">
+            <header class="post-header">
+              <p class="hero-eyebrow">Cognitive science · Human-AI interaction · Human-centered AI</p>
+              <h1 class="hero-title" id="about-title">Ruoxuan Li (李若瑄)</h1>
+            </header>
+            <div class="hero-summary">{{ page.hero_summary | markdownify }}</div>
+            <div class="hero-actions">
+              <a class="horizon-text-link" href="mailto:rl3403@columbia.edu?subject=Website%20inquiry">Start a conversation <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+          <div class="profile horizon-profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -33,10 +46,19 @@ layout: default
               {{ page.profile.address }}
             </div>
             {%- endif %}
+            {%- if page.social %}
+            <div class="profile-social social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+            </div>
+            {%- endif %}
           </div>
           {%- endif %}
+        </section>
 
-          <div class="clearfix">
+        <article class="about-content">
+          <div class="clearfix about-copy">
             {{ content }}
           </div>
 
@@ -58,19 +80,6 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
         </article>
 
-</div>
+      </div>

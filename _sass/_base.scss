@@ -38,6 +38,12 @@ a,
 table.table a {
   color: var(--global-theme-color);
 
+  &:focus-visible {
+    border-radius: 3px;
+    outline: 3px solid rgba(29, 153, 207, 0.35);
+    outline-offset: 3px;
+  }
+
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
@@ -170,7 +176,8 @@ blockquote {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: color-mix(in srgb, var(--global-bg-color) 86%, transparent);
+  opacity: 0.98;
 }
 
 .navbar .dropdown-menu {

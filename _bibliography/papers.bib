@@ -2,6 +2,32 @@
 ---
 @string{aps = {American Physical Society,}}
 
+@inproceedings{Li2026DynamicTopicModeling,
+  abbr        = {CIKM},
+  title       = {Dynamic Topic Modeling for Cross-Corpus Temporal Analysis},
+  author      = {Li, Ruoxuan and Kogut, Bruce},
+  abstract    = {Dynamic Embedded Topic Models (D-ETM) provide an interpretable framework for modeling temporal semantic evolution, but cross-corpus comparison remains difficult because topics are often learned independently and aligned only after training, a process that does not guarantee stable topic correspondence across corpora and time. To address this problem, we propose a D-ETM framework that first learns a common dynamic topic space over a merged multi-corpus collection, which we call the shared backbone, then introduces corpus-specific residual adaptation around the frozen backbone without creating separate latent topic spaces. This design preserves a shared topic index for cross-corpus comparison while allowing each corpus to specialize lexically. We evaluate the framework on three temporally structured corpora spanning 97 years: the Corpus of Historical American English, Harvard Business Review, and International Labour Review. Residual adaptation improves corpus-specific fit relative to the shared backbone while preserving the same-index cross-corpus topic trajectories, achieving substantially stronger alignment than full fine-tuning from the same backbone, with 97.5 {$\pm$} 0.7\% versus 17.9 {$\pm$} 1.1\% trajectory Retrieval@1, as well as stronger alignment than independent training with post-hoc Hungarian matching. These results suggest that incorporating topic alignment into the model can support more stable over-time cross-corpus comparisons while retaining corpus-specific lexical variation.},
+  booktitle   = {CIKM 2026},
+  year        = {2026},
+  html        = {https://www.alphaxiv.org/abs/2608.23284},
+  url         = {https://www.alphaxiv.org/abs/2608.23284},
+  pdf         = {https://www.alphaxiv.org/pdf/2608.23284},
+  selected    = {true}
+}
+
+@inproceedings{Li2026LLMRefusals,
+  abbr        = {EMNLP},
+  title       = {You Shouldn't Have Asked: A Pragmatics-Inspired Taxonomy for Evaluating LLM Refusals},
+  author      = {Li*, Ruoxuan and Wang*, Pinqiao and Li, Sheng and Jones, Cameron Robert},
+  abstract    = {Refusals are often treated as face-threatening acts in pragmatics because they can challenge the requester's socially claimed self-image. Large language models (LLMs) are increasingly trained to refuse unsafe and inappropriate requests, and these refusals may harm users when models fail to manage this interactional cost properly. While existing work has mainly approached LLM non-compliance as a safety-alignment outcome, it does not provide a way to evaluate whether LLMs refuse appropriately across different harmful contexts. To study this question, we propose (to our knowledge) the first taxonomy of LLM refusals that is grounded in pragmatic theory. Applying this taxonomy to responses from 16 modern LLMs across 14 harm categories, we find that although models differ in how they refuse, their refusals are overall explicit and strongly morally evaluative, with interactional repair occurring mainly through offering or providing safer alternatives instead of interpersonal facework. This pattern is especially consequential in sensitive harm contexts, where overuse of negative framing may make users feel shamed or provoked, undermining the purpose of safe non-compliance. We therefore call for alignment evaluation that considers not only whether models refuse harmful requests, but also whether they refuse in ways that are contextually adaptive and socially accountable for the interactional consequences of saying no.},
+  booktitle   = {EMNLP 2026},
+  year        = {2026},
+  html        = {https://www.alphaxiv.org/abs/2608.30856},
+  url         = {https://www.alphaxiv.org/abs/2608.30856},
+  pdf         = {https://www.alphaxiv.org/pdf/2608.30856},
+  selected    = {true}
+}
+
 @article{Sun2025DesigningMicroaggressions,
   abbr        = {CSCW},
   title       = {Designing For Microaggressions},
@@ -69,7 +95,7 @@ of improving future offerings of computing courses in prisons.},
 @article{Li2023CS0vsCS1,
   abbr={SIGCSE},
   title={CS0 vs. CS1: Understanding Fears and Confidence amongst Non-majors in Introductory CS Courses},
-  author={Li, Ruoxuan* and Hogan, Emma* and Raj, Adalbert Gerald Soosai},
+  author={Hogan*, Emma and Li*, Ruoxuan and Raj, Adalbert Gerald Soosai},
   abstract={Previous research has been devoted to improving the experience of non-majors in introductory CS courses. In this study, we compare the experiences of non-majors in two different introductory CS courses, specifically with respect to fears about taking the course and change in confidence levels. CS0 is a computing course intentionally designed for non-majors, and CS1 is a more traditional introductory computing course. Both of these courses were composed primarily of non-majors and were taught by the same instructor. Survey data was collected from 124 students enrolled in CS0, and 502 students enrolled in CS1. Through qualitative analysis, we found that the fears of non-major students entering both of these introductory CS courses fell into one or more of nine distinct categories (e.g., Coding, Perceiving STEM as Difficult, Managing Workload). Additionally, using students' confidence levels at the beginning and end of the courses, we found that students in CS0 had a greater increase in confidence level than those in CS1. Finally, we explored connections between students' fears and how their confidence changed by the end of the course. We found that students across both courses with fears related to coding, lack of preparation, and being left behind had the highest average increase in confidence levels.},
   journal={SIGCSE 2023},
   volume={1},
